@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".music_recommend"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/music"
+                android:layout_width="140dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/another_select_recommend"
+                android:text="Musci"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                />
+
+            <Button
+                android:id="@+id/book"
+                android:layout_width="140dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_gravity="center"
+                android:text="Book"
+                android:background="@drawable/select_recommend"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+
+        <FrameLayout
+            android:layout_width="390dp"
+            android:layout_height="550dp"
+            android:layout_gravity="center">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/book_rec1"
+                    android:background="@drawable/recommend_book"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/book_img1"
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_gravity="center"
+                        android:background="?android:attr/selectableItemBackgroundBorderless" />
+
+                    <LinearLayout
+                        android:id="@+id/book_info1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        >
+
+                        <TextView
+                            android:id="@+id/book_title1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="어린왕자"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:id="@+id/book_singer1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="누가 썼지"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:layout_marginBottom="20dp"/>
+
+                        <TextView
+                            android:id="@+id/tag1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="분노"
+                            android:textColor="#D7567F"
+                            android:textStyle="bold"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/book_rec2"
+                    android:background="@drawable/recommend_book"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+
+                    <ImageButton
+                        android:id="@+id/book_img2"
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_gravity="center"
+                        android:background="?android:attr/selectableItemBackgroundBorderless" />
+
+                    <LinearLayout
+                        android:id="@+id/book_info2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:id="@+id/book_title2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Girls Never Die"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:layout_marginBottom="10dp" />
+
+                        <TextView
+                            android:id="@+id/book_singer2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TripleS"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:layout_marginBottom="20dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tag2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="분노"
+                            android:textColor="#D7567F"
+                            android:textStyle="bold"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/book_rec3"
+                    android:background="@drawable/recommend_book"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+
+                    <ImageButton
+                        android:id="@+id/book_img3"
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_gravity="center"
+                        android:background="?android:attr/selectableItemBackgroundBorderless" />
+
+                    <LinearLayout
+                        android:id="@+id/book_info3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:id="@+id/book_title3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Girls Never Die"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:layout_marginBottom="10dp" />
+
+                        <TextView
+                            android:id="@+id/book_singer3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TripleS"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:layout_marginBottom="20dp"/>
+
+                        <TextView
+                            android:id="@+id/tag3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="분노"
+                            android:textColor="#D7567F"
+                            android:textStyle="bold"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
