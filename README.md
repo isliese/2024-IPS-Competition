@@ -2,5 +2,4 @@
 ##### 기억 관리 어플리케이션
 
 ##### 대회 포스터 / 개최 공고
-<br>
 <img src="https://github.com/user-attachments/assets/206ffff2-cafc-4671-9987-85b6faa75ba0" width="400"/>
